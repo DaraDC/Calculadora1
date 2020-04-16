@@ -27,4 +27,21 @@ font-family:sans-serif;
 font-weight:bolder;
 font-size:12px;
 color:black;
+background:palegoldenrod;
+}
+#less
+{
+font-family:"Homer Simpson UI", bold;
+font-size:18px;
+background:moccasin;
+}
+#siri
+{
+    font-style:italic;
+	color:black;
+}
+#ce1
+{
+	font-family:fantasy;
+	font-size:17px;
 }

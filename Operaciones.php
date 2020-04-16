@@ -9,4 +9,5 @@
 
  echo"La resta es:".($Cantidad1-$Cantidad2);
 
+
 ?>

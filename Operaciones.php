@@ -2,22 +2,23 @@
  $Cantidad1=$_POST['C1'];
  $Cantidad2=$_POST['C2'];
 
- $Operador=$_POST('operaciones')
+$Operador=$_POST('operaciones')
 
- if($Operador== 'suma')
+ if($Operador== 'Suma')
  {
      echo"EL RESULTADO DE LA OPERACION A REALIZAR ES:".($Cantidad1+$Cantidad2);
  }
- else if($Operador== 'resta')
+ else if($Operador== 'Resta')
  {
      echo"EL RESULTADO DE LA OPERACION A REALIZAR ES:".($Cantidad1-$Cantidad2);
  }
- else if($Operador== 'multiplicacion')
+ else if($Operador== 'Multiplicación')
  {
      echo"EL RESULTADO DE LA OPERACION A REALIZAR ES:".($Cantidad1*$Cantidad2);
  }
- else if($Operador== 'division')
+ else if($Operador== 'División')
  {
      echo"EL RESULTADO DE LA OPERACION A REALIZAR ES:".($Cantidad1/$Cantidad2);
  }
+
 ?>

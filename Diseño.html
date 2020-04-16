@@ -14,10 +14,22 @@
 <div align="center">
   <form method="post" action="Operaciones.php">
     <label for="C1">Valor 1 </label>
-    <input type="text" name="C1" id="C1" placeholder="Ingrese un valor" />
-    <br /><br />
+     <input type="text" name="C1" id="C1" placeholder="Ingrese un valor" />
+      <br /><br />
     <label for="C2">Valor 2 </label>
-    <input type="text" name="C2" id="C2" placeholder="Ingrese un valor" />
+     <input type="text" name="C2" id="C2" placeholder="Ingrese un valor" />
+      <br /><br />
+      <label for="operaciones">Seleccione la operación que desea realizar</label>
+       <br /><br />
+       <select name="operaciones">
+       <option value="Suma">Suma</option>
+       <option value="Resta">Resta</option>
+       <option value="Multiplicación">Multiplicación</option>
+       <option value="División">División</option>
+      </select>
+       <br /><br />
+      <input type="submit" value="Calcular" />
+
 
 </form>
 </div> 

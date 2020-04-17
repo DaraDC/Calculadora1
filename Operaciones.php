@@ -43,7 +43,7 @@ else if ($Operador== 'División')
  </div>
  </section>
 <section>
- <div align="right" id="mostrar">
+ <div align="left" id="mostrar">
  <p> <?php echo 'Realizado por '.$Nombre; ?> </php>
  </div>
  </section>

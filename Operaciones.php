@@ -5,7 +5,6 @@ $Cantidad2=$_POST['C2'];
 $Operador=$_POST['operaciones'];
 
 $RESULTADO= 'EL RESULTADO DE LA OPERACION ES: ';
-$Nombre= 'Dara Catú y Nadia Figueroa ';
 
 if($Operador== 'Suma')
 {
@@ -40,11 +39,6 @@ else if ($Operador== 'División')
 <section>
  <div align="center" id="mostrar">
  <p> <?php echo 'EL RESULTADO DE LA OPERACION ES: '.$RESULTADO; ?> </php>
- </div>
- </section>
-<section>
- <div align="left" id="mostrar">
- <p> <?php echo 'Realizado por '.$Nombre; ?> </php>
  </div>
  </section>
 </body>
